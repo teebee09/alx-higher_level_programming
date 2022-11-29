@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- * check_cycle - check for loop in LL
+ * check_cycle - fncs checks if a singly linked list has a cycle in it.
  * @list: head of linked list
  *
- * Description - check for loops in LL
+ * Description - check for loops in a singly linked list
  * Return: 1 if cycled, 0 if not
  */
 int check_cycle(listint_t *list)
