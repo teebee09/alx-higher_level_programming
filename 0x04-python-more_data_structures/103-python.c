@@ -6,6 +6,7 @@
  * @p: Python Object
  * Return: no return
  */
+
 void print_python_bytes(PyObject *p)
 {
     char *string;
@@ -47,6 +48,7 @@ void print_python_bytes(PyObject *p)
  * @p: Python Object
  * Return: no return
  */
+
 void print_python_list(PyObject *p)
 {
     long int size, i;
