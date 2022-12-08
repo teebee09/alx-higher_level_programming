@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def roman_to_int(roman_string):
+def roman_to_int(list_num):
     to_sub = 0
     max_list = max(list_num)
 
