@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     "prints x elements of a list"
-    i = pichu = 0
+    i = idx = 0
     for i in range(x):
         try:
             print("{}".format(my_list[i]), end="")
-            pichu += 1
+            idx += 1
         except IndexError:
             break
     print("")
-    return pichu
+    return idx
