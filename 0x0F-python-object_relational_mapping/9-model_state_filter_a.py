@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 #!/usr/bin/python3
 """
 return state objects containing letter 'a' from database via python
@@ -30,4 +27,3 @@ if __name__ == "__main__":
         print("{:d}: {:s}".format(state.id, state.name))
 
     session.close()
->>>>>>> 28d4fdb2b71bf11ff7f32e549563489d844b9c02
